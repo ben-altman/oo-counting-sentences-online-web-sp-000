@@ -16,7 +16,11 @@ class String
   def exclamation?
     self.end_with?("!")
   end
-
+# use #self to refer to string on which it is called
+# count the sentences in a string
+# split the string on appropriate punctuation - makes array
+# count the number of elements that result
+# account for edge cases - commas, ellipses, etc.
   def count_sentences
     array = self.split(/[.!?]\s/)
     array.count
